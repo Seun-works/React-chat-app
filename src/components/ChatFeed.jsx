@@ -21,7 +21,7 @@ const ChatFeed = (props) => {
                     <div className = 'message-block'>
                         {
                             isMyMessage
-                            ? <MyMessage message = {message}/> : <TheirMessage message = {message} lastMessgae ={messages[lastMessageKey]}/>
+                            ? <MyMessage message = {message}/> : <TheirMessage message = {message} lastMessage ={messages[lastMessageKey]}/>
                         }
 
                     </div>
@@ -35,8 +35,6 @@ const ChatFeed = (props) => {
 
         })
     }
-
-
     if(!chat) return 'Loading....';
     return (
         <div className = 'chat-feed'>
