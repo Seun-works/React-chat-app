@@ -3,7 +3,7 @@
 A react web application that enables users to chat to each other over the internet. It uses the Chatengine API to design the chat feed with other features.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![](./screnshot/anime_database_screenshot.png)
+![](./screnshot/react-chat-app.png)
 
 
 ## Table of contents
