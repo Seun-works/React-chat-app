@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# The React Web Chat Application
 
+A react web application that enables users to chat to each other over the internet. It uses the Chatengine API to design the chat feed with other features.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![](./screnshot/anime_database_screenshot.png)
 
-In the project directory, you can run:
 
-### `npm start`
+## Table of contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+  - [Using the project](#using-the-project)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Overview
+This project aimed to create a web chat application similar to Microsoft teams. 
 
-### `npm test`
+### The challenge
+-Learning how to connect to an API.
+- Learning and understanding the Chat Engine API to commence this project.
+- Building a responsive chat application at all screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Live Site URL: [React Chat Application](https://kind-clarke-42ccaa.netlify.app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Using the project
+- On the first visit to the site, you will be greeted with a Login page to put in your credentials.
+- kindly use these dummy credentials to test the functionality of this website.
+- Username: Simplyseun_
+- Password: 123123
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+The first thing that came to my mind when building this project was to build it from scracth, that idea ended up being very overwhelming. Luckily, through my research, i found an API called Chat engine, which makes creating chat applications very easy. With my knowledge of javascript and react, i was able to build a functional chat application tha made use of react components and hooks.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Built with
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Components.
+- React hooks.
+- [Chat engine API](https://chatengine.io)
+- [React](https://reactjs.org/) - JS library
+- Axios.
+- Mobile-first workflow.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### What I learned
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+THis project was conducted just a week after I had finished my anime database application, so the knowledge of using react and how to interact with an API was still fresh in my memory. I decided to take a different approach in communicating with the Chat engine API by using Axios insted of the built in fetch method. This project also needed me to  use my undrstanding of conditional statements and array manipulation in displaying both messages of the users.
 
-## Learn More
+I also learned that when it has to do with learning projects like this, my aim is to find different ways to address the problem right in front of me, whether it has to be done from scracth or to use a tested and proven library that makes me more productive.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Continued development
 
-### Analyzing the Bundle Size
+I aim to learn how to add more features into this project, like auto deletion and being able to change the background image to a users particullar choice.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+- Website - [Seun Ogundipe](https://frosty-dubinsky-40fb7f.netlify.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I want to give thanks to Javascript Mastery as i made use of his template as an inspiration in building this react application.
